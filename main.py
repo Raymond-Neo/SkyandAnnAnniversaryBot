@@ -52,7 +52,7 @@ def memory_command(update, context):
 def credit_command(update, context):
     chat_id = update.effective_message.chat.id
     update.effective_message.reply_text("@rayray_neo")
-    photo1 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Creator.jpg', 'rb')}
+    photo1 = {'photo': open(r'Photos\Creator.jpg', 'rb')}
     requests.post('https://api.telegram.org/bot1712123477:AAEVFUInHP9V7eYkedBqieNpUu4acp9cMYo/' +
                   'sendPhoto?chat_id=' + f"{chat_id}", files=photo1)
 

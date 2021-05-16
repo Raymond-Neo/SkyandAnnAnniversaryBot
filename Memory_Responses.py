@@ -80,16 +80,16 @@ def yearone_FirstHalf(update, context):
     global year_one_bool
     year_one_bool = True
     #open file for year 1 first half
-    photo1 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\FirstHalf\1.jpeg', 'rb')}
-    photo2 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\FirstHalf\2.jpeg', 'rb')}
-    photo3 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\FirstHalf\3.jpeg', 'rb')}
-    photo4 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\FirstHalf\4.jpeg', 'rb')}
-    photo5 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\FirstHalf\5.jpeg', 'rb')}
-    photo6 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\FirstHalf\6.jpeg', 'rb')}
-    photo7 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\FirstHalf\7.jpeg', 'rb')}
-    photo8 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\FirstHalf\8.jpeg', 'rb')}
-    photo9 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\FirstHalf\9.jpeg', 'rb')}
-    photo10 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\FirstHalf\10.jpeg', 'rb')}
+    photo1 = {'photo': open(r'Photos\Year1\FirstHalf\1.jpeg', 'rb')}
+    photo2 = {'photo': open(r'Photos\Year1\FirstHalf\2.jpeg', 'rb')}
+    photo3 = {'photo': open(r'Photos\Year1\FirstHalf\3.jpeg', 'rb')}
+    photo4 = {'photo': open(r'Photos\Year1\FirstHalf\4.jpeg', 'rb')}
+    photo5 = {'photo': open(r'Photos\Year1\FirstHalf\5.jpeg', 'rb')}
+    photo6 = {'photo': open(r'Photos\Year1\FirstHalf\6.jpeg', 'rb')}
+    photo7 = {'photo': open(r'Photos\Year1\FirstHalf\7.jpeg', 'rb')}
+    photo8 = {'photo': open(r'Photos\Year1\FirstHalf\8.jpeg', 'rb')}
+    photo9 = {'photo': open(r'Photos\Year1\FirstHalf\9.jpeg', 'rb')}
+    photo10 = {'photo': open(r'Photos\Year1\FirstHalf\10.jpeg', 'rb')}
 
     #instantiate self
     bot = telegram.Bot('1712123477:AAEVFUInHP9V7eYkedBqieNpUu4acp9cMYo')
@@ -134,16 +134,16 @@ def yearone_SecondHalf(update, context):
         year_one_bool = True
 
         # open file for year 1 second half
-        photo1 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\SecondHalf\1.jpeg', 'rb')}
-        photo2 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\SecondHalf\2.jpeg', 'rb')}
-        photo3 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\SecondHalf\3.jpeg', 'rb')}
-        photo4 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\SecondHalf\4.jpeg', 'rb')}
-        photo5 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\SecondHalf\5.jpeg', 'rb')}
-        photo6 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\SecondHalf\6.jpeg', 'rb')}
-        photo7 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\SecondHalf\7.jpeg', 'rb')}
-        photo8 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\SecondHalf\8.jpeg', 'rb')}
-        photo9 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\SecondHalf\9.jpeg', 'rb')}
-        photo10 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year1\SecondHalf\10.jpeg', 'rb')}
+        photo1 = {'photo': open(r'Photos\Year1\SecondHalf\1.jpeg', 'rb')}
+        photo2 = {'photo': open(r'Photos\Year1\SecondHalf\2.jpeg', 'rb')}
+        photo3 = {'photo': open(r'Photos\Year1\SecondHalf\3.jpeg', 'rb')}
+        photo4 = {'photo': open(r'Photos\Year1\SecondHalf\4.jpeg', 'rb')}
+        photo5 = {'photo': open(r'Photos\Year1\SecondHalf\5.jpeg', 'rb')}
+        photo6 = {'photo': open(r'Photos\Year1\SecondHalf\6.jpeg', 'rb')}
+        photo7 = {'photo': open(r'Photos\Year1\SecondHalf\7.jpeg', 'rb')}
+        photo8 = {'photo': open(r'Photos\Year1\SecondHalf\8.jpeg', 'rb')}
+        photo9 = {'photo': open(r'Photos\Year1\SecondHalf\9.jpeg', 'rb')}
+        photo10 = {'photo': open(r'Photos\Year1\SecondHalf\10.jpeg', 'rb')}
 
         # instantiate self
         bot = telegram.Bot('1712123477:AAEVFUInHP9V7eYkedBqieNpUu4acp9cMYo')
@@ -186,14 +186,14 @@ def yeartwo_FirstHalf(update, context):
     global year_two_bool
     year_two_bool = True
     #open file for year 2 first half
-    photo1 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\FirstHalf\1.jpeg', 'rb')}
-    photo2 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\FirstHalf\2.jpeg', 'rb')}
-    photo3 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\FirstHalf\3.jpeg', 'rb')}
-    photo4 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\FirstHalf\4.jpeg', 'rb')}
-    photo5 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\FirstHalf\5.jpeg', 'rb')}
-    photo6 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\FirstHalf\6.jpeg', 'rb')}
-    photo7 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\FirstHalf\7.jpeg', 'rb')}
-    photo8 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\FirstHalf\8.jpeg', 'rb')}
+    photo1 = {'photo': open(r'Photos\Year2\FirstHalf\1.jpeg', 'rb')}
+    photo2 = {'photo': open(r'Photos\Year2\FirstHalf\2.jpeg', 'rb')}
+    photo3 = {'photo': open(r'Photos\Year2\FirstHalf\3.jpeg', 'rb')}
+    photo4 = {'photo': open(r'Photos\Year2\FirstHalf\4.jpeg', 'rb')}
+    photo5 = {'photo': open(r'Photos\Year2\FirstHalf\5.jpeg', 'rb')}
+    photo6 = {'photo': open(r'Photos\Year2\FirstHalf\6.jpeg', 'rb')}
+    photo7 = {'photo': open(r'Photos\Year2\FirstHalf\7.jpeg', 'rb')}
+    photo8 = {'photo': open(r'Photos\Year2\FirstHalf\8.jpeg', 'rb')}
 
     #instantiate self
     bot = telegram.Bot('1712123477:AAEVFUInHP9V7eYkedBqieNpUu4acp9cMYo')
@@ -233,13 +233,13 @@ def yeartwo_SecondHalf(update, context):
         global year_two_bool
         year_two_bool = True
         # open file for year 2 second half
-        photo1 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\SecondHalf\1.jpeg', 'rb')}
-        photo2 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\SecondHalf\2.jpeg', 'rb')}
-        photo3 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\SecondHalf\3.jpeg', 'rb')}
-        photo4 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\SecondHalf\4.jpeg', 'rb')}
-        photo5 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\SecondHalf\5.jpeg', 'rb')}
-        photo6 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\SecondHalf\6.jpeg', 'rb')}
-        photo7 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year2\SecondHalf\7.jpeg', 'rb')}
+        photo1 = {'photo': open(r'Photos\Year2\SecondHalf\1.jpeg', 'rb')}
+        photo2 = {'photo': open(r'Photos\Year2\SecondHalf\2.jpeg', 'rb')}
+        photo3 = {'photo': open(r'Photos\Year2\SecondHalf\3.jpeg', 'rb')}
+        photo4 = {'photo': open(r'Photos\Year2\SecondHalf\4.jpeg', 'rb')}
+        photo5 = {'photo': open(r'Photos\Year2\SecondHalf\5.jpeg', 'rb')}
+        photo6 = {'photo': open(r'Photos\Year2\SecondHalf\6.jpeg', 'rb')}
+        photo7 = {'photo': open(r'Photos\Year2\SecondHalf\7.jpeg', 'rb')}
 
         # instantiate self
         bot = telegram.Bot('1712123477:AAEVFUInHP9V7eYkedBqieNpUu4acp9cMYo')
@@ -276,12 +276,12 @@ def yearthree_FirstHalf(update, context):
     global year_three_bool
     year_three_bool = True
     #open file for year 3 first half
-    photo1 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year3\FirstHalf\1.jpeg', 'rb')}
-    photo2 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year3\FirstHalf\2.jpeg', 'rb')}
-    photo3 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year3\FirstHalf\3.jpeg', 'rb')}
-    photo4 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year3\FirstHalf\4.jpeg', 'rb')}
-    photo5 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year3\FirstHalf\5.jpeg', 'rb')}
-    photo6 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year3\FirstHalf\6.jpeg', 'rb')}
+    photo1 = {'photo': open(r'Photos\Year3\FirstHalf\1.jpeg', 'rb')}
+    photo2 = {'photo': open(r'Photos\Year3\FirstHalf\2.jpeg', 'rb')}
+    photo3 = {'photo': open(r'Photos\Year3\FirstHalf\3.jpeg', 'rb')}
+    photo4 = {'photo': open(r'Photos\Year3\FirstHalf\4.jpeg', 'rb')}
+    photo5 = {'photo': open(r'Photos\Year3\FirstHalf\5.jpeg', 'rb')}
+    photo6 = {'photo': open(r'Photos\Year3\FirstHalf\6.jpeg', 'rb')}
 
     #instantiate self
     bot = telegram.Bot('1712123477:AAEVFUInHP9V7eYkedBqieNpUu4acp9cMYo')
@@ -318,12 +318,12 @@ def yearthree_SecondHalf(update, context):
         global year_three_bool
         year_three_bool = True
         # open file for year 3 second half
-        photo1 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year3\SecondHalf\1.jpeg', 'rb')}
-        photo2 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year3\SecondHalf\2.jpeg', 'rb')}
-        photo3 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year3\SecondHalf\3.jpeg', 'rb')}
-        photo4 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year3\SecondHalf\4.jpeg', 'rb')}
-        photo5 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year3\SecondHalf\5.jpeg', 'rb')}
-        photo6 = {'photo': open(r'C:\Users\rayra\PycharmProjects\LTanniversary\Photos\Year3\SecondHalf\6.jpeg', 'rb')}
+        photo1 = {'photo': open(r'Photos\Year3\SecondHalf\1.jpeg', 'rb')}
+        photo2 = {'photo': open(r'Photos\Year3\SecondHalf\2.jpeg', 'rb')}
+        photo3 = {'photo': open(r'Photos\Year3\SecondHalf\3.jpeg', 'rb')}
+        photo4 = {'photo': open(r'Photos\Year3\SecondHalf\4.jpeg', 'rb')}
+        photo5 = {'photo': open(r'Photos\Year3\SecondHalf\5.jpeg', 'rb')}
+        photo6 = {'photo': open(r'Photos\Year3\SecondHalf\6.jpeg', 'rb')}
 
         # instantiate self
         bot = telegram.Bot('1712123477:AAEVFUInHP9V7eYkedBqieNpUu4acp9cMYo')
