@@ -138,12 +138,15 @@ def main():
     dp.add_handler(MessageHandler(Filters.text, handle_message))
     dp.add_error_handler(error_message)
 
+    '''
     updater.start_webhook(listen="0.0.0.0",
                           port=int(PORT),
                           url_path='1712123477:AAEVFUInHP9V7eYkedBqieNpUu4acp9cMYo',
                           webhook_url='https://yourherokuappname.herokuapp.com/' + '1712123477:AAEVFUInHP9V7eYkedBqieNp'
                                       + 'Uu4acp9cMYo')
-
+    '''
+    updater.start_polling()
+    updater.idle()
 
 main()
 
