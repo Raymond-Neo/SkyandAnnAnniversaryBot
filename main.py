@@ -6,7 +6,10 @@ from telegram.ext import *
 import Responses as r
 import Memory_Responses
 import requests
+import flask
+import os
 
+server = flask(__name__)
 def start_command(update, context):
     update.effective_message.reply_text("Hello baby\n"
                                         + "Note: Always /start to return to top\n"
@@ -112,6 +115,7 @@ def error_message(update, context):
     print(f"Update {update} caused error {context.error}")
 
 def main():
+    PORT = int(os.environ.get('PORT', 5000))
     updater = Updater(API_KEY_CONSTANT.API_KEY, use_context=True)
     dp = updater.dispatcher
     # for /start
@@ -134,7 +138,11 @@ def main():
     dp.add_handler(MessageHandler(Filters.text, handle_message))
     dp.add_error_handler(error_message)
 
-    updater.start_polling()
+    updater.start_webhook(listen="0.0.0.0",
+                          port=int(PORT),
+                          url_path='1712123477:AAEVFUInHP9V7eYkedBqieNpUu4acp9cMYo')
+    updater.bot.setWebhook('https://yourherokuappname.herokuapp.com/' + '1712123477:AAEVFUInHP9V7eYkedBqieNpUu4acp9cMYo'
+                           )
     updater.idle()
 
 
